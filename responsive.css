@@ -1,0 +1,150 @@
+
+@media screen and (max-width: 1361px) {
+   .line2{
+    display: none;
+   }
+}
+
+@media screen and (max-width: 1220px) {
+    .line1 {
+        position: absolute;
+        width: 109%;
+        left: 12%;
+        top: 10%;
+    }
+
+    .left-months {
+        top: 10%;
+    }
+
+    .left-months h3 {
+        line-height: 4.5;
+    }
+}
+@media screen and (max-width: 730px) {
+    .right-side h1{
+        text-align: center;
+        margin-bottom: 7%;
+    }
+    .layout-css,
+    .payment-and-class-time{
+        flex-direction: column;
+        align-items: center;
+    }
+    .payment-and-class-time div{
+        margin-bottom: 8%;
+    }
+    .layout-css div{
+        margin-bottom: 4%;
+    }
+    .fs h1{
+        font-size: 1.2rem;
+    }
+    .line1{
+        display: none;
+    }
+    .table-container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 688px) {
+    .head-btm-right button[type="button"]{
+        font-size: 1rem;
+    }
+    .head{
+        text-align: center;
+    }
+    .head-btm-container{
+        grid-template-columns: 1fr;
+    }
+    .fr1-list-con p{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .cs-font-for-fr{
+        font-size: .6rem;
+    }
+    .cs-font-for-fri h1,
+    .cs-font-for-fri h2{
+        font-size: 1.2rem;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col-1{
+        flex-basis: 50%;
+    }
+    .fs{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 624px) {
+    .head-btm-right button[type="button"]{
+        font-size: 1rem;
+        padding: 2%;
+    }
+    .head-btm-left-head{
+        margin-bottom: 4%;
+    }
+    .head-btm-left-head h3{
+        text-align: center;
+    }
+    .head-btm-left-lists{
+        text-align: center;
+        margin: auto;
+    }
+    .head-btm-left-lists ol{
+        list-style: none;
+    }
+    .head-btm-right{
+        margin-top: 3%;
+        text-align: center;
+    }
+    .inner-pic{
+        height: 130px;
+    }
+    .batch-list-for-batch{
+        text-align: center;
+        margin-top: 4%;
+    }
+    .batch-list-for-batch ol{
+        list-style: none;
+    }
+}
+@media screen and (max-width: 657px) {
+    .form-container form .first-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .label{
+        margin-bottom: 4%;
+        text-align: center;
+    }
+    .first-div div{
+        text-align: center;
+        margin: 4% 0;
+    }
+    .last-form-sec{
+        text-align: center;
+        margin-bottom: 8%;
+    }
+    .crs-head{
+        text-align: center;
+    }
+    .crs-head .inner-div{
+        margin: 3% auto;
+        display: inline-block;
+    }
+    .crs-head .inner-div p{
+        margin: 15%;
+    }
+}
+@media screen and (max-width: 522px){
+    .batch-list-for-batch ol li{
+        margin-bottom: 10%;
+        margin-top: 8%;
+    }
+    .batch-list-for-batch ol li span{
+        padding: 2% 4%;
+    }
+}

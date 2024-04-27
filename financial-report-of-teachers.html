@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>financial-report-of-teachers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        .table-container{
+            margin: 4%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .left-months{
+            position: relative;
+            margin-top: 7%;
+        }
+        .left-months h3{
+            line-height: 4;
+        }
+        table{
+            width: 120%;
+        }
+        th, td{
+            font-size: 1.2rem;
+            line-height: 4;
+            text-align: center;
+        }
+        .right-data{
+            position: relative;
+        }
+        .line1{
+            position: absolute;
+            width: 192%;
+            left: -39%;
+            top: -3%;
+        }
+        .line2{
+            position: absolute;
+            height: 105%;
+            left: 245%;
+            top: -5%;
+        }
+        tr{
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container-for-finanIns">
+            <div class="cs-font-for-fri fs">
+                <h1>LAST 6 MONTHS FINANCIAL REPORT OF XYZ SIR</h1>
+            </div>
+           <div class="table-container">
+                <div class="left-months">
+                    <h3>April</h3>
+                    <h3>March</h3>
+                    <h3>Feb</h3>
+                    <h3>Jan</h3>
+                    <img class="line2" src="images/vertical.png" alt="vertical-line">
+                </div>
+                <div class="right-data">
+                    <img class="line1" src="images/horizontal.png" alt="horizontal-line">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Per Hour Payment</th>
+                                <th>Total Hour</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>200</td>
+                                <td>5</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>200</td>
+                                <td>6</td>
+                                <td>1200</td>
+                            </tr>
+                            <tr>
+                                <td>200</td>
+                                <td>7</td>
+                                <td>1400</td>
+                            </tr>
+                            <tr>
+                                <td>200</td>
+                                <td>3</td>
+                                <td>600</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+           </div>
+        </div>
+    </main>
+</body>
+
+</html>

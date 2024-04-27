@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teachers-profile</title>
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .right-side {
+            margin: 4%;
+        }
+
+        .right-side h1 {
+            color: rgb(16, 16, 112);
+            margin-bottom: 4%;
+        }
+
+        .layout-css {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        label {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.774);
+        }
+
+        input {
+            border: none;
+            border-bottom: 3px solid black;
+            outline: none;
+            text-align: center;
+            font-size: 1.2rem;
+            padding-bottom: 4%;
+            margin-bottom: 10%;
+        }
+
+        .payment-and-class-time {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4%;
+        }
+
+        .crs-head .inner-div {
+            margin-top: 3%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 60px;
+            background-color: rgb(105, 146, 207);
+        }
+
+        .crs-head .inner-div p {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .button-div-fr {
+            margin-top: 4%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .button-div-fr button {
+            border: none;
+            outline: noen;
+            font-size: 1.5rem;
+            background-color: #174497;
+            color: white;
+            padding: 1% 4%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <div class="right-side">
+                <h1>Teachers Profile</h1>
+                <div class="form-container">
+                    <form action="#">
+                        <div class="layout-css">
+                            <div>
+                                <label for="name"># Teachers Name</label><br><br>
+                                <input type="text" placeholder="xyz">
+                            </div>
+                            <div>
+                                <label for="name"># Teaching Subject</label><br><br>
+                                <input type="text" placeholder="Bangla">
+                            </div>
+                        </div>
+                        <div class="layout-css">
+                            <div>
+                                <label for="name"># Teaching Time</label><br><br>
+                                <input type="text" placeholder="4pm - 5pm">
+                            </div>
+                            <div>
+                                <label for="name"># Teachers Degree</label><br><br>
+                                <input type="text" placeholder="BA Hon's">
+                            </div>
+                        </div>
+                        <div class="layout-css">
+                            <div>
+                                <label for="name"># Educational Institute</label><br><br>
+                                <input type="text" placeholder="University of Dhaka">
+                            </div>
+                            <div>
+                                <label for="name"># Phone Number</label><br><br>
+                                <input type="text" placeholder="01984298094">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="payment-and-class-time">
+                    <div class="crs-head">
+                        <h3>PAYMENT PER HOUR</h3>
+                        <div class="inner-div">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="crs-head">
+                        <h3>CLASS HOUR THIS MONTH</h3>
+                        <div class="inner-div">
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-div-fr">
+                    <button type="button">View Financial Details</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
